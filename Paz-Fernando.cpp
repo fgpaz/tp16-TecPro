@@ -2,7 +2,7 @@
 /** 
 AUTOR : Paz Garcia, Fernando
 */
-
+// enunciado: suma minima entre dos numeros pares consecutivos
 principal
 	
 	archivo datos;		
@@ -32,7 +32,7 @@ principal
 	finSi
 	
 	si(hay2) entonces
-		mostrar << sumaMinima << salto;
+		mostrar << "Suma Minima:" <<sumaMinima << salto;
 	finSi
 		
 	cerrar(datos);
